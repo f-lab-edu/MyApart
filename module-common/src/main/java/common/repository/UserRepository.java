@@ -1,6 +1,7 @@
-package flab.myapart.repository;
+package common.repository;
 
-import flab.myapart.entity.User;
+import common.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+
 public interface UserRepository extends JpaRepository<User,Long> {
 }
